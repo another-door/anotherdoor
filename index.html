@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Another Door - Lifestyle Services. 라이프스타일 관련 서비스를 개발하는 회사입니다.">
+    <title>Another Door | Lifestyle Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Another Door</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" data-lang-key="nav-home">Home</a></li>
+                <li><a href="#about" data-lang-key="nav-about">About</a></li>
+                <li><a href="#products" data-lang-key="nav-products">Products</a></li>
+                <li><a href="#contact" data-lang-key="nav-contact">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="lang-selector">
+                    <button class="lang-btn active" data-lang="ko" id="langKo">한국어</button>
+                    <button class="lang-btn" data-lang="en" id="langEn">English</button>
+                </div>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="hero-title">Another Door</h1>
+            <p class="hero-subtitle" data-ko="라이프스타일 서비스" data-en="Lifestyle Services">Lifestyle Services</p>
+            <p class="hero-description" data-ko="일상 생활을 더 풍요롭게 만드는 혁신적인 라이프스타일 서비스를 개발합니다." data-en="We develop innovative lifestyle-related services to enhance your daily life.">
+                We develop innovative lifestyle-related services to enhance your daily life.
+            </p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-ko="회사 소개" data-en="About Us">About Us</h2>
+            <div class="about-content">
+                <p class="about-text" data-ko="Another Door는 사람들의 일상적인 루틴과 습관을 개선하는 라이프스타일 관련 서비스를 개발하는 회사입니다. 우리의 미션은 여러분의 삶에 자연스럽게 통합되어 매일을 더욱 생산적이고 균형 잡힌, 의미 있는 하루로 만드는 도구를 만드는 것입니다." data-en="Another Door is a company dedicated to developing lifestyle-related services that help people improve their daily routines and habits. Our mission is to create tools that seamlessly integrate into your life, making every day more productive, balanced, and meaningful.">
+                    Another Door is a company dedicated to developing lifestyle-related services that help people improve their daily routines and habits. Our mission is to create tools that seamlessly integrate into your life, making every day more productive, balanced, and meaningful.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title" data-ko="우리의 제품" data-en="Our Products">Our Products</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/screenshot-1.png" alt="Timer & Pomodoro App">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title" data-ko="타이머" data-en="Timer & Pomodoro">Timer & Pomodoro</h3>
+                        <p class="product-description" data-ko="커스터마이징 가능한 타이머와 뽀모도로 기법으로 생산성을 높이세요. 집중력을 유지하고 시간을 효과적으로 관리하세요." data-en="Boost your productivity with customizable timers and Pomodoro technique. Stay focused and manage your time effectively.">
+                            Boost your productivity with customizable timers and Pomodoro technique. Stay focused and manage your time effectively.
+                        </p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/screenshot-2.png" alt="Smart Alarm App">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title" data-ko="스마트 알람" data-en="Smart Alarm">Smart Alarm</h3>
+                        <p class="product-description" data-ko="인터랙티브 알람 기능으로 잠에서 깨어나세요. 흥미진진한 기상 챌린지로 하루를 시작하세요." data-en="Wake up with interactive alarm features. Start your day with engaging wake-up challenges.">
+                            Wake up with interactive alarm features. Start your day with engaging wake-up challenges.
+                        </p>
+                    </div>
+                </div>
+                <div class="product-card">
+                  <div class="product-image">
+                      <img src="images/screenshot-3.png" alt="Habit & Routine Management App">
+                  </div>
+                  <div class="product-info">
+                      <h3 class="product-title" data-ko="습관 관리" data-en="Habit Tracker">Habit Tracker</h3>
+                      <p class="product-description" data-ko="일상적인 루틴과 습관을 쉽게 추적하고 관리하세요. 직관적인 습관 관리 앱으로 삶을 정리하세요." data-en="Track and manage your daily routines and habits with ease. Organize your life with our intuitive habit tracking app.">
+                          Track and manage your daily routines and habits with ease. Organize your life with our intuitive habit tracking app.
+                      </p>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-ko="연락처" data-en="Contact Us">Contact Us</h2>
+            <div class="contact-content">
+                <p class="contact-text" data-ko="우리의 서비스에 관심이 있으신가요? 연락 주세요!" data-en="Interested in our services? Get in touch with us!">
+                    Interested in our services? Get in touch with us!
+                </p>
+                <div class="contact-info">
+                    <p><strong><span data-ko="이메일" data-en="Email">Email</span>:</strong> support@anotherdoor.io</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Another Door. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
